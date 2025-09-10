@@ -1,3 +1,8 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
 main {
   max-width: 840px;
 }
@@ -30,4 +35,33 @@ footer {
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
+}
+
+nav {
+  text-align: center;
+  background-color: #333;
+  padding: 15px;
+}
+
+nav a {
+  color: #eee;
+  font-size: 16px;
+  padding: 0 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  opacity: 0.6;
+  text-decoration: underline;
+}
+
+h1 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+img {
+  display: flex;
+  margin: 0 auto;
 }
