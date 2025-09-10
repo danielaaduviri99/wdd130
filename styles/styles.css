@@ -44,6 +44,7 @@ nav {
 }
 
 nav a {
+  display: block;
   color: #eee;
   font-size: 16px;
   padding: 0 16px;
@@ -59,9 +60,14 @@ nav a:hover {
 h1 {
   text-decoration: underline;
   text-align: center;
+  color: #013556;
 }
 
 img {
   display: flex;
+  width: 200px;
+  height: auto;
+  border: 1px solid #333;
+  box-shadow: 0 0 30px #333;
   margin: 0 auto;
 }
